@@ -1,0 +1,117 @@
+@import url(https://fonts.googleapis.com/css?family=Carme|Oswald);
+
+html {
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0.1)), url('game_screenshot_1.PNG');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+
+  /*Cover background*/
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+  font-family: Oswald, sans-serif;
+
+  box-sizing: border-box;
+  color: #115;
+}
+* {
+  box-sizing: inherit;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+body {
+  overflow: hidden;
+}
+#app-icon-section {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  display: inline-block;
+  padding: 10px 10px;
+  border-radius: 30px;
+  background: rgba(255,255,255,0.5);
+
+  width: 190px;
+  text-align: center;
+}
+.app-icon {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  width: 80px;
+  height: 80px;
+  border-radius: 15px;
+  background: linear-gradient(rgba(0,0,0,0.1), rgba(0,0,0,0)), url('app_icon_1_60x60_3x.PNG') no-repeat center center;
+
+  /*Cover background*/
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+
+}
+.app-title {
+  font-size: 30px;
+  color: #555;
+}
+
+#title {
+  position: absolute;
+  bottom: 75%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+#title div {
+  font-size: 50px;
+  letter-spacing: 39px;
+  margin-right:-39px;
+  text-shadow: 2px 2px rgba(255, 0, 0, 0.8);
+}
+
+#subtitle {
+  position: absolute;
+  top: 30.5%;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+#subtitle div {
+  text-shadow: 1px 1px rgba(255, 0, 0, 0.8);
+  letter-spacing: 3px;
+  margin-right: -3px;
+}
+
+#get-cardboard {
+  width: 190px;
+  background-image: url('cardboard.png');
+  background-position: center right;
+  background-repeat: no-repeat;
+
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, 0);
+  height: 70px;
+  line-height: 70px;
+}
+a {
+  color: #ccc;
+  text-decoration: none;
+}
+a:hover {
+  color: #ccc;
+}
+a:visited {
+  color: #ccc;
+}
+a:active {
+  color: #ccc;
+}
